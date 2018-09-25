@@ -1,0 +1,49 @@
+{
+  "name": "bdmp-poc-master",
+  "version": "1.0.0",
+  "description": "This is a pre-sales work for BDMP Technologies for Internal Control Assessment. This is being developed by experts from Sirius Computer Solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BDMP",
+    "Sirius",
+    "Internal",
+    "Control",
+    "Assessment"
+  ],
+  "author": "Abhishek Jayaraman, Sapna Jayavel, Arunjunai Selvi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/chai": "^4.1.5",
+    "@types/chai-http": "^3.0.5",
+    "@types/cors": "^2.8.4",
+    "@types/errorhandler": "0.0.32",
+    "@types/mocha": "^5.2.5",
+    "@types/mongodb": "^3.1.9",
+    "@types/mongoose": "^5.2.17",
+    "@types/morgan": "^1.7.35",
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "mocha": "^5.2.0",
+    "mocha-typescript": "^1.1.17",
+    "run-sequence": "^2.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.9.1"
+  }
+}

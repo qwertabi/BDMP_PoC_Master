@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var mongoose_1 = require("mongoose");
+exports.adminUserSchema = new mongoose_1.Schema({
+    createdAt: { type: Date, default: Date.now },
+    name: String,
+    userName: String,
+    password: String
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjaGVtYXMvQWRtaW5Vc2VyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEscUNBQWtDO0FBRXZCLFFBQUEsZUFBZSxHQUFXLElBQUksaUJBQU0sQ0FBQztJQUM5QyxTQUFTLEVBQUUsRUFBRSxJQUFJLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxJQUFJLENBQUMsR0FBRyxFQUFFO0lBQzVDLElBQUksRUFBRSxNQUFNO0lBQ1osUUFBUSxFQUFFLE1BQU07SUFDaEIsUUFBUSxFQUFFLE1BQU07Q0FDakIsQ0FBQyxDQUFDIiwiZmlsZSI6InNjaGVtYXMvQWRtaW5Vc2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgU2NoZW1hIH0gZnJvbSBcIm1vbmdvb3NlXCI7XG5cbmV4cG9ydCB2YXIgYWRtaW5Vc2VyU2NoZW1hOiBTY2hlbWEgPSBuZXcgU2NoZW1hKHtcbiAgY3JlYXRlZEF0OiB7IHR5cGU6IERhdGUsIGRlZmF1bHQ6IERhdGUubm93IH0sXG4gIG5hbWU6IFN0cmluZyxcbiAgdXNlck5hbWU6IFN0cmluZyxcbiAgcGFzc3dvcmQ6IFN0cmluZ1xufSk7XG4iXX0=
