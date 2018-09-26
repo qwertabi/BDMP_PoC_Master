@@ -4,7 +4,8 @@
   "description": "This is a pre-sales work for BDMP Technologies for Internal Control Assessment. This is being developed by experts from Sirius Computer Solutions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/bin/www"
   },
   "keywords": [
     "BDMP",
@@ -16,6 +17,13 @@
   "author": "Abhishek Jayaraman, Sapna Jayavel, Arunjunai Selvi",
   "license": "ISC",
   "devDependencies": {
+    "@angular-devkit/build-angular": "^0.5.13",
+    "@angular/cli": "^6.0.0-rc.4",
+    "@angular/compiler": "^5.1.3",
+    "@angular/compiler-cli": "^5.1.3",
+    "@angular/platform-browser": "^5.1.3",
+    "@angular/platform-browser-dynamic": "^5.1.3",
+    "@angular/common": "^5.1.3",
     "@types/body-parser": "^1.17.0",
     "@types/chai": "^4.1.5",
     "@types/chai-http": "^3.0.5",
@@ -36,14 +44,20 @@
     "mocha-typescript": "^1.1.17",
     "run-sequence": "^2.2.1",
     "ts-node": "^7.0.1",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "zone.js": "^0.8.26"
   },
   "dependencies": {
+    "@angular/animations": "^6.1.8",
+    "@angular/cdk": "^6.4.7",
+    "@angular/core": "^5.1.3",
+    "@angular/material": "^6.4.7",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "errorhandler": "^1.5.0",
     "express": "^4.16.3",
     "mongoose": "^5.2.17",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "rxjs": "^5.5.2"
   }
 }
